@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: demo-pod
+spec:
+   containers:
+   - name: 96f624e17884-container01
+     image: iginsk/iginskrepo:demo
+     ports:
+     - containerPort: 7888
